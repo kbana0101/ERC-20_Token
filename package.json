@@ -4,14 +4,18 @@
     "description": "Random Token Sale ICO",
     "main": "truffle.js",
     "directories": {
-      "test": "test"
+        "test": "test"
     },
     "scripts": {
-      "dev": "lite-server"
+        "dev": "lite-server"
     },
     "author": "Kamal Bana",
     "license": "ISC",
     "devDependencies": {
-      "lite-server": "^2.6.0"
+        "@truffle/hdwallet-provider": "^2.1.0",
+        "lite-server": "^2.6.0"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3"
     }
-  }
+}
